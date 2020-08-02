@@ -11211,7 +11211,7 @@ html.js .loader_inner {
 
 body {
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     min-width: 320px;
     position: relative;
     line-height: 1.6;
@@ -11527,12 +11527,48 @@ h2 {
     margin-bottom: 10px;
     margin-top: 8px;
 }
+.privacy-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+}
+.privacy-sub-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    color: #1e5f8d;
+    text-transform: uppercase;
+}
+.privacy-sub-sub-title{
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
 
 .f-desc {
     font-size: 14px;
     padding-right: 10%;
 }
-
+.f-p-desc {
+    font-size: 1rem;
+    padding-right: 0%;
+}
+.f-p-desc .p-p-sub-text{
+    font-size: 1rem;
+}
+.f-p-desc ul {
+    margin: 12px 0px;
+}
+.f-p-desc ul li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
 .content {
     padding-bottom: 200px;
     width: 100%;
